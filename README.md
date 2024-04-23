@@ -1,4 +1,3 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/q8skb0tP)
 # Introduction
 
 In this project, you will design and implement a database for a fictional job site called (creatively) "Job Hunters". Additionally, you must fill your database tables with fake data for testing purposes. At the end of this project, you will use your database to answer some queries using SQL.
