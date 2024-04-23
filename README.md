@@ -90,15 +90,3 @@ j) a list of all positions that require "java" as a skill
 k) the name of the candidate that applied for the most positions
 
 ```
-
-# Rubric 
-
-```
-+20 Part A (database design)
-+45 Part B (database implementation)
-    +25 table create statements 
-    +20 database insert statements
-+30 Part C (SQL queries): +3 points per query
-+5 bonus point (query "k")
--5 name of the students not identified in files (erd and sql)
-```
