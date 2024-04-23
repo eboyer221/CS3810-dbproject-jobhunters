@@ -1,0 +1,48 @@
+// CS3810: Principles of Database Systems
+// Instructor: Thyago Mota
+// Student(s): Emily Boyer and Michael Runnels
+// Description: ERD for the Job Hunters Database
+
+erdiagram job_hunters
+notation=crowsfoot
+
+entity Positions {
+    id key
+    title
+    description
+    skills
+    level
+    post_date
+    expiration_date
+}
+
+
+entity Candidates {
+    email key
+    name
+    address
+    phone
+}
+
+weak entity Applications {
+    id partial-key
+    date
+    code
+}
+
+entity Statuses {
+    code key
+    description
+}
+
+weak relationship belongs_to {
+    Applications [1..N] -> Positions[1]
+}
+
+weak relationship submits {
+    Candidates [1] -> Applications [0..N]
+}
+
+weak relationship generates {
+    Applications [1] -> Statuses [1]
+}
